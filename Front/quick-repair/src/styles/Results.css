@@ -1,0 +1,13 @@
+.results {
+  margin: auto;
+  border: solid 1px lightgrey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+
+  h1 {
+    color: #ff445f;
+  }
+}

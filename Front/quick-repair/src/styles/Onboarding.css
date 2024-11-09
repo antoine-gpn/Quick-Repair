@@ -1,0 +1,37 @@
+.onboarding {
+  background-color: #313131;
+}
+
+.img-onboarding {
+  margin-bottom: 15px;
+}
+
+.text-white {
+  color: white;
+}
+
+.option-name {
+  background-color: #ff445f;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.container-options {
+  width: 200px;
+  height: 200px;
+  border: solid 1px grey;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.container-options-full {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+}

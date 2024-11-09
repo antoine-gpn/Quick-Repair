@@ -1,0 +1,170 @@
+[
+  {
+    "Key": "Plomberie",
+    "Options": {
+      "Key": "Ou se situe votre problème ?",
+      "WC": {
+        "Options": {
+          "Key": "Quelle est la nature de votre problème ?",
+          "Engorgement (WC bouchés)": {
+            "Options": {
+              "Key": "Quel type de WC possédez-vous ?",
+              "WC simple": {},
+              "WC suspendu": {},
+              "Autre": {}
+            }
+          },
+          "Fuite (recherche de fuite)": {
+            "Options": {
+              "Key": "Quel type de WC possédez-vous ?",
+              "WC simple": {},
+              "WC suspendu": {},
+              "Autre": {}
+            }
+          },
+          "Problème de fonctionnement (cuvette...)": {
+            "Options": {
+              "Key": "Quel type de WC possédez-vous ?",
+              "WC Simple": {},
+              "WC Suspendu": {},
+              "Autre": {}
+            }
+          },
+          "Changement de WC": {
+            "Options": {
+              "Key": "Quel type de WC possédez-vous ?",
+              "WC Simple": {},
+              "WC Suspendu": {},
+              "Autre": {}
+            }
+          }
+        }
+      },
+      "Lavabo": {
+        "Options": {
+          "Key": "Quelle est la nature de votre problème ?",
+          "Engorgement (lavabo / évier bouché)": {
+            "Options": {
+              "Key": "Votre lavabo possède-t-il un sanispeed  ?",
+              "Oui": {},
+              "Non": {}
+            }
+          },
+          "Fuite / robinetterie": {
+            "Options": {
+              "Key": "D'où coule l'eau ?",
+              "Autour du robinet": {},
+              "Directement du robinet": {},
+              "Au niveau du siphon": {},
+              "Au niveau des flexibles": {}
+            }
+          },
+          "Autre": {
+            "Options": {
+              "Key": "Voulez-vous effectuer ?",
+              "Changement de lavabo": {},
+              "Installation d'un robinet": {},
+              "Autre": {}
+            }
+          }
+        }
+      },
+      "Douche": {
+        "Options": {
+          "Key": "Quelle est la nature de votre problème ?",
+          "Engorgement de douche (bouchée)": {},
+          "Engorgement de baignoire (bouchée)": {},
+          "Fuite de douche": {
+            "Options": {
+              "Key": "D'où coule l'eau ?",
+              "Du robinet": {},
+              "Du tuyau d'évacuation": {},
+              "Inconnu": {}
+            }
+          },
+          "Fuite de baignoire": {
+            "Options": {
+              "Key": "D'où coule l'eau ?",
+              "Du robinet": {},
+              "Du tuyau d'évacuation": {},
+              "Inconnu": {}
+            }
+          },
+          "Autre": {
+            "Options": {
+              "Key": "Voulez-vous effectuer ?",
+              "Installation de bac à douche": {},
+              "Installation de baignoire": {},
+              "Autre problème avec la douche": {},
+              "Autre problème avec la baignoire": {},
+              "Réfection des joints de la douche / baignoire": {}
+            }
+          }
+        }
+      },
+      "Colonne générale d'immeuble": {},
+      "Tuyauterie": {
+        "Options": {
+          "Key": "Vous avez une fuite au niveau ?",
+          "D'un tuyau d'évacuation (Tuyau PVC)": {},
+          "De la vanne d'entrée": {},
+          "D'un autre tuyau ?": {},
+          "Je ne vois pas (recherche d'une fuite) ?": {
+            "Options": {
+              "Key": "Quel type de recherche de fuite souhaitez-vous ?",
+              "recherche de fuite simple": {},
+              "recherche de fuite encastrée": {}
+            }
+          }
+        }
+      },
+      "Chaudière": {
+        "Options": {
+          "Key": "Quel est votre besoin ?",
+          "Réparation d'une panne": {
+            "Options": {
+              "Key": "Votre problème est lié ?",
+              "Au chauffage": {},
+              "A l'eau chaude": {},
+              "Au chauffage et à l'eau chaude": {}
+            }
+          },
+          "Souscription d'un contract d'entretien": {},
+          "Réparation d'une fuite du ballon d'eau chaude": {},
+          "Autre": {},
+          "Installation": {
+            "Options": {
+              "Key": "Quel objet est concerné par votre demande ?",
+              "Chaudière": {},
+              "Chauffe-eau / chauffe-bain": {},
+              "Ballon d'eau chaude": {},
+              "Radiateur électrique / sèche-serviettes": {}
+            }
+          }
+        }
+      },
+      "Tuyau de la machine à laver/ du lave-vaisselle": {},
+      "Autre": {}
+    }
+  },
+  {
+    "Key": "Electricité",
+    "Options": {}
+  },
+  {
+    "Key": "Chauffage",
+    "Options": {}
+  },
+  {
+    "Key": "Serrurerie",
+    "Options": {}
+  },
+  {
+    "Key": "Vitrerie",
+    "Options": {}
+  },
+  {
+    "Key": "Electroménager",
+    "Options": {}
+  }
+]

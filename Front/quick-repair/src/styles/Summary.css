@@ -1,0 +1,19 @@
+.summary-pic {
+  margin-left: 10%;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.text-start {
+  font-weight: bold;
+  margin-left: 10%;
+  font-size: 1.6em;
+}
+
+.btn-intervention {
+  margin-left: 8%;
+}
+
+.lorem-ipsum {
+  width: 75%;
+}

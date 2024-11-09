@@ -1,0 +1,36 @@
+.nextStep-container {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+}
+
+.next-step-elem {
+  width: 45%;
+  font-weight: bold;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fcf5ef;
+  border-radius: 10px;
+  border: solid 1px lightgrey;
+  padding: 0 10px 0 10px;
+}
+
+.nextStep-footer {
+  background-color: #defae9;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  border: solid 1px lightgrey;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 20%;
+}
+
+.btn-back-next {
+  margin: auto;
+  display: block;
+}

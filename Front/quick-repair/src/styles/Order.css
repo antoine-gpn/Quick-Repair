@@ -1,0 +1,80 @@
+.order-number {
+  background-color: #ff445f;
+  color: white;
+  padding: 1px 8px 1px 8px;
+  font-weight: bold;
+}
+
+.order-btns {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.order-btn {
+  width: 48%;
+  margin: 0;
+}
+
+.radio {
+  background-color: solid 2px red;
+  border-radius: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.error-text {
+  color: red;
+  margin: 0;
+  display: none;
+}
+
+.mail-confirm {
+  color: gray;
+  width: 100%;
+  text-align: center;
+}
+
+.paragraph-bloc {
+  border: "solid 1px black";
+  width: 80%;
+}
+
+.paybox-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 60%;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+fieldset {
+  border-radius: 10px;
+
+  input {
+    border: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
+
+.inputsContainer {
+  display: "flex";
+  flex-direction: "column";
+  width: 70%;
+  flex-wrap: wrap;
+}

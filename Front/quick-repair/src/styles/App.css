@@ -1,0 +1,149 @@
+.App {
+  padding-top: 50px;
+  flex: 1;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.arrow {
+  color: white;
+  background-color: #ff445f;
+  border-radius: 15px;
+  padding: 2px 5px 2px 7px;
+  color: white;
+  border-radius: 10;
+  max-height: 22px;
+}
+
+.red-btn {
+  background-color: #ff445f;
+  color: white;
+  border: solid 1px lightgrey;
+  border-radius: 20px;
+  padding: 15px 20px 15px 20px;
+  font-weight: bold;
+}
+
+.summary-blocks {
+  width: 50%;
+
+  p {
+    margin-left: 10%;
+  }
+}
+
+.final-steps {
+  display: flex;
+  flex-direction: row;
+}
+
+.summary-title {
+  width: 80%;
+  color: #ff445f;
+  margin-left: 10%;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.summary-list {
+  margin-left: 35%;
+  list-style-type: none;
+  text-align: left;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.order-left {
+  border: solid 1px #fcd4d4;
+  background-color: #fffdfc;
+  border-radius: 10px;
+  margin-left: 5%;
+  padding-left: 10%;
+  width: 40%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5em;
+  height: 40px;
+  padding: 10px;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-title {
+  text-align: center;
+}
+
+.btn-back {
+  background-color: white;
+  color: #ff445f;
+  border: solid 2px #ff445f;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.left-arrow {
+  border: solid 1px #ff445f;
+  border-radius: 25px;
+  padding: 2px 5px 2px 2px;
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+
+.line {
+  width: 75px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.input-line {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Gestion du responsive */
+@media (max-width: 800px) {
+  .final-steps {
+    flex-direction: column;
+  }
+
+  .summary-blocks {
+    width: 100%;
+  }
+  .order-left {
+    width: 80%;
+  }
+
+  .input-line {
+    justify-content: center;
+    margin-left: 25%;
+  }
+
+  .next-step-elem {
+    width: 80%;
+  }
+
+  .summary-list {
+    margin-left: 20%;
+  }
+}

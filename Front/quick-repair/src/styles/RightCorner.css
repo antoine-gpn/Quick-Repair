@@ -1,0 +1,27 @@
+.summary-icon {
+  border: solid 1px grey;
+  border-radius: 50px;
+  padding: 0 5px 0 5px;
+  margin-right: 10px;
+}
+
+.summary-recontact {
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  background-color: #fff0f1;
+  margin-bottom: 20px;
+}
+
+.summary-right-bloc {
+  background-color: #fff0f1;
+  border: solid 1px lightgray;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
