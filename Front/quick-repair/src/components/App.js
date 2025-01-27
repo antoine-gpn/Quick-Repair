@@ -34,7 +34,7 @@ function App() {
   });
 
   //Url pointing to the Back API
-  const baseUrl = "https://goweb-back.onrender.com/";
+  const baseUrl = "https://quickrepair.onrender.com/";
 
   //Call API to retrieve question/answer tree
   useEffect(() => {
